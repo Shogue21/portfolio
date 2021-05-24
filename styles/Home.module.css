@@ -14,17 +14,11 @@
     -webkit-text-stroke: 1px black;
     color: white;
     font-size: 72px;
-    /* font-family: 'Bebas Neue', cursive; */
-    /* font-family: 'Dancing Script', cursive; */
-    font-family: 'Merienda', cursive;
     letter-spacing: 1px;
 }
 
 .description {
     margin: 0;
-    /* font-family: 'Bebas Neue', cursive; */
-    /* font-family: 'Dancing Script', cursive; */
-    font-family: 'Merienda', cursive;
     font-size: 20px;
     text-align: end;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Merienda:wght@700&display=swap');
+
 html,
 body {
   padding: 0;
@@ -8,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  font-family: 'Merienda', cursive !important;
 }
 
 a {
@@ -17,4 +20,5 @@ a {
 
 * {
   box-sizing: border-box;
+  background: blue ur
 }

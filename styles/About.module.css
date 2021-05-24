@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.title {
+    margin-bottom: 0;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.link {
+    text-decoration: none;
+}
