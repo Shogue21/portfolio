@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
     "error": "10.4.0",
     "next": "10.2.1",
     "react": "17.0.2",
