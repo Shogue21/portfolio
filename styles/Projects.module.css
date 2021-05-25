@@ -7,3 +7,10 @@
 .cardSize {
     flex: 1 0 34%;
 }
+
+.tag {
+    border: 1px solid black;
+    font-size: 0.3rem;
+    position: absolute;
+    z-index: 1;
+}
