@@ -1,16 +1,18 @@
-.container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.cardSize {
-    flex: 1 0 34%;
-}
-
 .tag {
     border: 1px solid black;
     font-size: 0.3rem;
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+}
+
+.image {
+    height: fit-content !important;
+    width: 30% !important;
+}
+
+.projectCard {
+    flex-basis: 33%;
+    background-color: #E1DDDF;
+    position: relative !important;
 }
