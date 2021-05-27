@@ -1,0 +1,11 @@
+.fill {
+    height: 50vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.skill {
+    flex-basis: 28%;
+}
