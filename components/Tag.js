@@ -1,8 +1,8 @@
-import "../styles/Projects.module.css"
+import styles from "../styles/Projects.module.css"
 
 const Tag = ({skill}) => {
     return (
-        <div className="tag">
+        <div className={`${styles.tag} ${styles.description}`}>
             <p>{skill}</p>
         </div>
     )

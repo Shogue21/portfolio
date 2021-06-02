@@ -1,18 +1,19 @@
 import styles from '../styles/Header.module.css'
 import Link from 'next/link'
+import {motion} from 'framer-motion'
+import {useState} from 'react'
 
 const Header = () => {
+    const [navShown, setNavShown] = useState(false);
+
     return (
         <div>
             <div className={styles.dropdown}>
-                <button className={styles.dropbtn}>&gt;</button>
-                <div className={styles.dropdownContent}>
-                    <nav className="navbar navbar-expand-lg">
+                <button onClick={() => {setNavShown(navShown => !navShown)}} className={styles.dropbtn} style={navShown ? {backgroundColor: '#FC813D'} : {backgroundColor: 'inherit'}}>&gt;</button>
+                <div className={styles.dropdownContent} style={navShown ? {display: 'inline-flex'} : {display: 'none'}}>
+                    <nav className="navbar navbar-expand">
                     <div className="container-fluid">
                         <Link href="/" className="navbar-brand">Home</Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                        </button>
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav">
                                 <Link href="/aboutme" className="nav-link">About Me</Link>
