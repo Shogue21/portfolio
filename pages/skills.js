@@ -4,8 +4,8 @@ import styles from '../styles/Skills.module.css'
 const skills = () => {
     return (
         <div className={`${styles.center}`}>
-            <h3 className={`mb-2`}>Skills</h3>
-            <div className={`d-flex flex-wrap justify-content-evenly align-items-center mb-3 ${styles.fill}`}>
+            <h3 className={`mb-5`}>Skills</h3>
+            <div className={`d-flex flex-wrap flex-grow justify-content-center align-items-center shadow-lg w-50 pt-4 ${styles.skills}`}>
             <Skill skill="Python" url="/skillImages/python.png"></Skill>
             <Skill skill="HTML" url="/skillImages/html.png"></Skill>
             <Skill skill="CSS" url="/skillImages/css.png"></Skill>
