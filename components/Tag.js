@@ -2,7 +2,7 @@ import styles from "../styles/Projects.module.css"
 
 const Tag = ({skill}) => {
     return (
-        <div className={`${styles.tag} ${styles.description} p-2`}>
+        <div className={`${styles.tag} ${styles.description} d-flex align-items-center justify-content-center p-2`}>
             <p>{skill}</p>
         </div>
     )

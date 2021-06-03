@@ -13,12 +13,12 @@
     margin-bottom: 0;
     -webkit-text-stroke: 1px black;
     color: white;
-    font-size: 72px;
+    font-size: 6vw;
     letter-spacing: 1px;
 }
 
 .description {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: end;
 }

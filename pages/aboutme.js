@@ -2,10 +2,6 @@ import styles from '../styles/About.module.css'
 import {motion} from 'framer-motion'
 
 const aboutme = () => {
-    //To Do:
-    // 2 Paragraphs
-    // More attention to contact links
-    // Semi-transparent background of different color (orange/gray)?
     return (
         <>
         <div className={`${styles.container}`}>

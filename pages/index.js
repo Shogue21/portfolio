@@ -2,13 +2,10 @@ import styles from '../styles/Home.module.css'
 import { motion } from 'framer-motion';
 
 export default function Home() {
-
-  //To Do:
-  // Make name bigger
   return (
     <div>
       <div className={styles.container}>
-        <motion.div className={styles.header} initial="hidden" animate="visable" drag dragTransition={{ bounceStiffness: 500, bounceDamping: 5}} dragConstraints={{top: -10, left: -10, right: 10, bottom: 10,}} whileHover={{scale: 1.5}} variants={{
+        <motion.div className={styles.header} initial="hidden" animate="visable" drag dragTransition={{ bounceStiffness: 500, bounceDamping: 5}} dragConstraints={{top: -5, left: -5, right: 5, bottom: 5,}} whileHover={{scale: 1.5}} variants={{
           hidden: {
             scale: .8,
             opacity: 0

@@ -6,7 +6,6 @@ import {useState} from 'react'
 const ProjectCard = ({image, project, description, detailDescription, skills, url, dateCompleted, id}) => {
     //To Do:
     //Fix hover skills
-    //Decrease space between projects
     const [imgOpacity, setIMGOpacity] = useState(1);
     const [isHovered, setIsHovered] = useState(false);
 
