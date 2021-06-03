@@ -17,9 +17,9 @@ const aboutme = () => {
         </div>
         <div className={`d-flex justify-content-center mb-5`}><h3>Contact Me!</h3></div>
         <div className={`${styles.images} pb-3`}>
-            <motion.a whileHover={{scale: 1.2}} href="https://www.linkedin.com/in/seth-hogue/" target="blank"><img src="/contactImages/linkedin.png"/></motion.a>
-            <motion.a whileHover={{scale: 1.2}} href="https://github.com/Shogue21" target="blank"><img src="/contactImages/github.png"/></motion.a>
-            <motion.a whileHover={{scale: 1.2}} href="mailto: sethhogue5@gmail.com" target="blank"><img src="/contactImages/gmail.png"/></motion.a>
+            <motion.a whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} href="https://www.linkedin.com/in/seth-hogue/" target="blank"><img src="/contactImages/linkedin.png"/></motion.a>
+            <motion.a whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} href="https://github.com/Shogue21" target="blank"><img src="/contactImages/github.png"/></motion.a>
+            <motion.a whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} href="mailto: sethhogue5@gmail.com" target="blank"><img src="/contactImages/gmail.png"/></motion.a>
         </div>
         </>
     )

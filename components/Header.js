@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div>
-            <div className={styles.dropdown}>
+            <div className={`${styles.dropdown}`}>
                 <button onClick={() => {setNavShown(navShown => !navShown)}} className={styles.dropbtn} style={navShown ? {backgroundColor: '#FC813D'} : {backgroundColor: 'inherit'}}>&gt;</button>
                 <div className={styles.dropdownContent} style={navShown ? {display: 'inline-flex'} : {display: 'none'}}>
                     <nav className="navbar navbar-expand">
