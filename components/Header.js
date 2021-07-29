@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import {useState} from 'react'
 
 const Header = () => {
-    const [navShown, setNavShown] = useState(false);
+    const [navShown, setNavShown] = useState(true);
 
     return (
         <div>
