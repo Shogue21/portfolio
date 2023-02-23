@@ -13,6 +13,10 @@ const skills = () => {
             <Skill skill="React" url="/skillImages/react.png"></Skill>
             <Skill skill="Next.js" url="/skillImages/nextjs.png"></Skill>
             <Skill skill="Golang" url="/skillImages/golang.png"></Skill>
+            <Skill skill="Java" url="/skillImages/java.png"></Skill>
+            <Skill skill="JavaScript" url="/skillImages/javascript.png"></Skill>
+            <Skill skill="TypeScript" url="/skillImages/typescript.png"></Skill>
+            <Skill skill="SQL" url="/skillImages/sql.png"></Skill>
         </div>
         </div>
     )
