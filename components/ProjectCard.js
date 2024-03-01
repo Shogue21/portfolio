@@ -40,7 +40,7 @@ const ProjectCard = ({image, project, description, detailDescription, skills, ur
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body overflow-scroll">
-                            <img src={image} className="image h-100 w-100"/>
+                            <img src={image} className={`${styles.image} image h-100 w-100`}/>
                             <h5>Date Completed: </h5>
                             <p className={styles.description}>{dateCompleted}</p>
                             <h5>Language(s):</h5>
