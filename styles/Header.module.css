@@ -4,26 +4,26 @@
     padding: 20px;
     font-size: 16px;
     border: none;
+    height: 10.5vh;
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position: relative;
+    position: fixed;
+    top: 0;
     display: inline-block;
-    margin-bottom: 10px;
     z-index: 1;
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdownContent {
-    display: none;
-    position: absolute;
-    background-color: rgba(218, 217, 214, 0.3);
-    min-width: 160px;
+    top: 0;
+    background-color: rgba(218, 217, 214, 0.97);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    width: 96.5vw;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
   }
   
   /* Links inside the dropdown */
