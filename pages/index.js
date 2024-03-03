@@ -18,6 +18,7 @@ export default function Home() {
             }
           }
         }}>
+          <p className={styles.dragTip}>Drag me! &#8600;</p>
           <h1 className={styles.title}>Seth Hogue</h1>
           <p className={styles.description}>Full-Stack Software Engineer</p>
         </motion.div>
