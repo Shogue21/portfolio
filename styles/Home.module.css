@@ -23,11 +23,18 @@
     text-align: end;
 }
 
+.dragTip {
+    transform: rotate(-10deg) translateY(-1vh) translateX(-6vw);
+}
+
 @media only screen and (max-width: 600px) {
     .title {
         font-size: 10vw;
     }
     .description {
         font-size: 3vw;
+    }
+    .dragTip {
+        font-size: 1.5vw;
     }
 }
