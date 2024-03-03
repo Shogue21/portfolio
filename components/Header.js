@@ -13,12 +13,12 @@ const Header = () => {
                 <div className={styles.dropdownContent} style={navShown ? {display: 'inline-flex'} : {display: 'none'}}>
                     <nav className="navbar navbar-expand">
                     <div className="container-fluid">
-                        <Link href="/" className="navbar-brand">Home</Link>
+                        <Link href="/" className={`${styles.brand} navbar-brand`}>SH</Link>
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav">
-                                <Link href="/aboutme" className="nav-link">About Me</Link>
-                                <Link href="/projects" className="nav-link">Projects</Link>
-                                <Link href="/skills" className="nav-link">Skills</Link>
+                                <Link href="/aboutme" className={`${styles.miniLink} nav-link`}>About Me</Link>
+                                <Link href="/projects" className={`${styles.miniLink} nav-link`}>Projects</Link>
+                                <Link href="/skills" className={`${styles.miniLink} nav-link`}>Skills</Link>
                             </div>
                         </div>
                     </div>

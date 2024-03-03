@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     display: inline-block;
-    z-index: 1;
+    z-index: 3;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -36,3 +36,11 @@
   
   /* Change color of dropdown links on hover */
   .dropdownContent a:hover {background-color: #ddd; border: 2px solid #FC813D;}
+
+  .miniLink {
+    margin: 0px 1rem;
+  }
+
+  .brand {
+    font-size: 30px !important;
+  }
