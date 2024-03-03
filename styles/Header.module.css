@@ -44,3 +44,9 @@
   .brand {
     font-size: 30px !important;
   }
+
+  @media only screen and (max-width: 600px) {
+    .miniLink {
+      margin: auto;
+    }
+}
