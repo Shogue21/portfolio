@@ -7,10 +7,10 @@
     left: 0;
     height: 5vh;
     width: min-content;
-    padding-top: 1vh;
+    padding: 0.4vh 0.2vw;
     margin-right: 1vw;
     margin-top: -9vw;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(185, 185, 185);
     
 }
 
@@ -20,7 +20,7 @@
 
 .projectCard {
     flex-basis: 33%;
-    background-color: #E1DDDF;
+    background-color: #d4cece;
     position: relative !important;
     max-height: 100%;
 }

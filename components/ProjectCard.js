@@ -4,13 +4,11 @@ import Tag from '../components/Tag'
 import {useState} from 'react'
 
 const ProjectCard = ({image, project, description, detailDescription, skills, url, dateCompleted, id}) => {
-    //To Do:
-    //Fix hover skills
     const [imgOpacity, setIMGOpacity] = useState(1);
     const [isHovered, setIsHovered] = useState(false);
 
     const displaySkillsMain = () => {
-        return skills.map(skill => <Tag key={skill}skill={skill}/>);
+        return skills.map(skill => <Tag key={skill} skill={skill}/>);
     }
     const displaySkillsDetail = () => {
         return skills.map(skill => <div className={`${styles.description}`} key={skill}>{skill}</div>);
@@ -23,15 +21,15 @@ const ProjectCard = ({image, project, description, detailDescription, skills, ur
     return (
         <div className={`card bg-gray d-flex m-2 ${styles.projectCard} shadow-lg`} style={{width: 300}}>
             <div className={`d-flex flex-column align-items-center p-1`}>
-                <img src={image} className="card-img-top" alt="..." style={{opacity: imgOpacity, position: 'relative'}} onMouseOver={() => {setIMGOpacity(0.7); setIsHovered(true) }} onMouseLeave={() => {setIMGOpacity(1); setIsHovered(false)}}></img>
-                <div className={`d-flex flex-row align-items-top`}>
+                <img src={image} className="card-img-top" alt="..." style={{opacity: imgOpacity, position: 'relative'}} onMouseOver={() => {setIMGOpacity(0.5); setIsHovered(true) }} onMouseLeave={() => {setIMGOpacity(1); setIsHovered(false)}}></img>
+                <div className={`d-flex flex-row align-items-top`} onMouseOver={() => {setIMGOpacity(0.5); setIsHovered(true)}}>
                 {isHovered && displaySkillsMain()}
                 </div>
-                <h5 className={`card-title mt-2 border-bottom border-3`}>{project}</h5>
             </div>
-            <div className="card-body d-flex flex-column justify-content-end">
+            <div className="card-body d-flex flex-column justify-content-between align-items-center">
+                <h5 className={`card-title mt-2 border-3`}>{project}</h5>
                 <p className={`card-text ${styles.description}`}>{description}</p>
-                <button type="button" className="btn btn-primary align-bottom" data-bs-toggle="modal" data-bs-target={`#modal${id}`}>View Project</button>
+                <button type="button" className="btn btn-primary align-bottom w-100" data-bs-toggle="modal" data-bs-target={`#modal${id}`}>View Project</button>
                 <div className="modal fade" id={`modal${id}`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog">
                         <div className="modal-content">
