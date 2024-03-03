@@ -17,7 +17,7 @@ const skills = () => {
             <Skill skill="JavaS" url="/skillImages/javascript.png"></Skill>
             <Skill skill="TypeS" url="/skillImages/typescript.png"></Skill>
             <Skill skill="SQL" url="/skillImages/sql.png"></Skill>
-        </div>
+            </div>
         </div>
     )
 }

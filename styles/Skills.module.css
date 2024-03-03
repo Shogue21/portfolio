@@ -3,17 +3,19 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 100vh;
 }
 
 .skill {
-    flex-basis: 50%;
-    padding: 2vw;
-    width: 25vw;
-    height: 15vh;
+    flex-basis: 45%;
+    width: 5vw;
+    height: 5vh;
+    margin: 3vh 1vw;
 }
 
 .skills {
     background-color: rgba(150, 148, 148, 0.272);
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 5vh 0vw;
 }
