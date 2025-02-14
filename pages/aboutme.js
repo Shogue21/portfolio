@@ -7,7 +7,7 @@ const aboutme = () => {
         <div className={`${styles.container}`}>
             <div className={`${styles.centered} shadow-lg p-3`}>
                 <h3 className={styles.title}>About Me</h3>
-                <p className={`${styles.description}`}>Hey, my name is Seth Hogue. I am a Full-Stack developer currently working at C Spire on the Billing Applications team. My primary coding language is Python, however I have experience with many other languages!</p>
+                <p className={`${styles.description}`}>Hello, I'm Seth! I am a Full-Stack developer currently working at C Spire on the Billing Applications team. My primary coding language is Python, however I have experience with many other languages!</p>
                 <p className={`${styles.description}`}>A fun focus of mine has been creating small game websites such as my Pokemon RPS site built in React and my Quizgo site built with Django. If you're interested in learning more about these projects, feel free to check some of them out in my projects section! I'm also available to chat through LinkedIn or email!</p>
             </div>
         </div>
